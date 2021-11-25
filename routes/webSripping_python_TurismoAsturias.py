@@ -102,16 +102,16 @@ while contador <= len(nombres_archivos)+1:
             #creamos la ruta de la carpeta donde se va a guardar el archivo y le añadimos el nombre del archivo con la extension
             if  ciclo == 0 :
                 if nombres[contador] == 'Ruta_Bustio_a_Pendueles' or nombres[contador] == 'Etapa_1:_Panes_-_Alles':
-                    ##AÑADE TU DIRECTORIO
+                    ##AÑADE TU DIRECTORIO (dentro del directorio crea la siguiente carpeta: RutadelaVíadelaPlata)
                     ruta_carpeta ='D:/Proyectos_Trabajos/ProyAppGeo/Proyecto_2021_2022/datos/rutas_senderismo_Asturias/'+nombres[contador] +".kml"
                     ciclo = 2
                 else:
-                    ##AÑADE TU DIRECTORIO
+                    ##AÑADE TU DIRECTORIO (dentro del directorio crea la siguiente carpeta: RutadelaVíadelaPlata)
                     ruta_carpeta ='D:/Proyectos_Trabajos/ProyAppGeo/Proyecto_2021_2022/datos/rutas_senderismo_Asturias/'+nombres[contador] +".kml"
                     ciclo = 1
                 
             elif ciclo == 1:
-                ##AÑADE TU DIRECTORIO
+                ##AÑADE TU DIRECTORIO (dentro del directorio crea la siguiente carpeta: RutadelaVíadelaPlata)
                 ruta_carpeta ='D:/Proyectos_Trabajos/ProyAppGeo/Proyecto_2021_2022/datos/rutas_senderismo_Asturias/'+nombres[contador] +".gpx"
                 ciclo = 2
             
